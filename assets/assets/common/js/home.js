@@ -1,9 +1,9 @@
 function signIn() {
-    window.location.href = "card.php";
+    window.location.href = "card.html";
 }
 
 function signUp() {
-    window.location.href = "card.php";
+    window.location.href = "card.html";
 }
 
 module.signIn = signIn;
